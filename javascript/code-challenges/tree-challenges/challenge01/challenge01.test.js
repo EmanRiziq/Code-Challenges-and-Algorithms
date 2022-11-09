@@ -1,9 +1,9 @@
 'use strict';
 
-const { Node, buildTree } = require('./challenge01.js');
+const { Node, buildTree } = require('./challenge01');
 
 describe('Testing challenge 01', () => {
-    
+
     // testing empty tree
     test('It should return null if the tree is empty', () => {
         let inorder = [];
@@ -32,4 +32,4 @@ describe('Testing challenge 01', () => {
         expect(tree.value).toEqual(-1);
     });
 
-    });
+});
